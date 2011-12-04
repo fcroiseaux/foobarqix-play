@@ -4,7 +4,7 @@
 
 @main("Bienvenue aux qualifs de code story") {
 
-    <h1>Saisissez les parametres de foobarqix:</h1>
+    <h2>Parametres de foobarqix:</h2>
 
     @form(action = routes.Application.computeReplacements, args = 'id -> "paramform") {
 
@@ -15,15 +15,15 @@
 
     @inputText(
         field = paramForm("rp1"),
-        args = 'label -> "Si divisible par 3 ou contient 3 alors remplacer par", 'placeholder -> "Foo"
+        args = 'label -> "3 ==> ", 'placeholder -> "Foo"
     )
     @inputText(
         field = paramForm("rp2"),
-        args = 'label -> "Si divisible par 5 ou contient 5 alors remplacer par", 'placeholder -> "Bar"
+        args = 'label -> "5 ==> ", 'placeholder -> "Bar"
     )
     @inputText(
         field = paramForm("rp3"),
-        args = 'label -> "Si divisible par 7 ou contient 7 alors remplacer par", 'placeholder -> "Qix"
+        args = 'label -> "7 ==> ", 'placeholder -> "Qix"
     )
 
     <p class="buttons">

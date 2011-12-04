@@ -16,7 +16,7 @@ object Application extends Controller {
    */
   val paramForm = Form(
     of(
-        "nbIter" -> number(min=1, max=1000),
+        "nbIter" -> number,
         "rp1" -> optional(text),
         "rp2" -> optional(text),
         "rp3" -> optional(text)
