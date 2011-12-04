@@ -1,13 +1,5 @@
 package controllers
 
-/**
- * Created by IntelliJ IDEA.
- * User: croiseaux
- * Date: 03/12/11
- * Time: 19:38
- * To change this template use File | Settings | File Templates.
- */
-
 object Utils {
   def rpl = List("", "", "", "Foo", "", "Bar", "", "Qix", "", "", "")
 

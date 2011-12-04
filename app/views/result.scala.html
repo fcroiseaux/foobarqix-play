@@ -1,0 +1,11 @@
+@(range: Seq[Int])
+
+@main("Résultat du calcul") {
+
+    <ul>
+        @range.map { ind =>
+        <li> @ind --> @Utils.convert(ind)</li>
+        }
+    </ul>
+
+}
