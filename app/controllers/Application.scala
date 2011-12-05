@@ -31,7 +31,7 @@ object Application extends Controller {
       }
       )
   }
-  
+
   def result(nbIter: String) = Action {  request =>
     Ok(html.basicresult((1 to  nbIter.toInt)))
   }
