@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="754aa09e-84b1-4796-88f8-2ed28b84235f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/main.scala.html" afterPath="$PROJECT_DIR$/app/views/main.scala.html" />
     </list>
     <ignored path="foobarqix-play.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -63,7 +64,7 @@
       <file leaf-file-name="index.scala.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/index.scala.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="57" selection-start="219" selection-end="238" vertical-scroll-proportion="-4.375">
+            <state line="31" column="77" selection-start="922" selection-end="940" vertical-scroll-proportion="-19.375">
               <folding />
             </state>
           </provider>
@@ -78,10 +79,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.scala.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="main.scala.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/main.scala.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="97" column="58" selection-start="3292" selection-end="3292" vertical-scroll-proportion="0.0">
+            <state line="87" column="40" selection-start="3065" selection-end="3065" vertical-scroll-proportion="0.16666667">
               <folding />
             </state>
           </provider>
@@ -91,15 +92,6 @@
         <entry file="file://$PROJECT_DIR$/app/controllers/Application.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state line="24" column="0" selection-start="441" selection-end="704" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="routes" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/conf/routes">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="189" selection-end="270" vertical-scroll-proportion="0.20797227">
               <folding />
             </state>
           </provider>
@@ -126,7 +118,7 @@
       <file leaf-file-name="Utils.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/Utils.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="19" selection-start="19" selection-end="19" vertical-scroll-proportion="0.0">
+            <state line="1" column="62" selection-start="20" selection-end="20" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -154,12 +146,12 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/forms.less" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/patterns.less" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/bootstrap.less" />
-        <option value="$PROJECT_DIR$/app/views/main.scala.html" />
         <option value="$PROJECT_DIR$/app/views/result.scala.html" />
         <option value="$PROJECT_DIR$/app/views/basicresult.scala.html" />
         <option value="$PROJECT_DIR$/app/views/index.scala.html" />
         <option value="$PROJECT_DIR$/app/controllers/Application.scala" />
         <option value="$PROJECT_DIR$/conf/routes" />
+        <option value="$PROJECT_DIR$/app/views/main.scala.html" />
       </list>
     </option>
   </component>
@@ -195,6 +187,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -337,23 +331,21 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="79" />
-    <property name="project.structure.proportion" value="0.0" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="87" />
-    <property name="MemberChooser.sorted" value="false" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="project.structure.proportion" value="0.0" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="87" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="MemberChooser.sorted" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="last_opened_file_path" value="$USER_HOME$/github/bootstrap/examples" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="91" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="887" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="885" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="887" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="92" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="89" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -368,8 +360,8 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
-    <property name="project.structure.side.proportion" value="0.2" />
     <property name="DefaultHtmlFileTemplate" value="Html" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
   </component>
   <component name="RecentsManager">
@@ -389,20 +381,6 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
-      <module name="" />
-      <setting name="path" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="packagepath" value="" />
-      <setting name="workingDirectory" value="$PROJECT_DIR$" />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -415,15 +393,13 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <configuration default="true" type="SpecsRunConfiguration" factoryName="Specs">
+    <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
       <module name="" />
       <setting name="path" value="" />
       <setting name="vmparams" value="" />
       <setting name="params" value="" />
       <setting name="packagepath" value="" />
       <setting name="workingDirectory" value="$PROJECT_DIR$" />
-      <setting name="sysFilter" value=".*" />
-      <setting name="exampleFilter" value=".*" />
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
@@ -439,17 +415,15 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
+    <configuration default="true" type="SpecsRunConfiguration" factoryName="Specs">
       <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
+      <setting name="path" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="packagepath" value="" />
+      <setting name="workingDirectory" value="$PROJECT_DIR$" />
+      <setting name="sysFilter" value=".*" />
+      <setting name="exampleFilter" value=".*" />
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
@@ -490,6 +464,24 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -507,6 +499,17 @@
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
         <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
@@ -533,17 +536,6 @@
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
         <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Local">
-      <JSDebuggerConfigurationSettings>
-        <option name="engineId" value="embedded" />
-        <option name="fileUrl" />
-      </JSDebuggerConfigurationSettings>
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
@@ -628,16 +620,16 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.44164038" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27109516" sideWeight="0.5583596" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32944345" sideWeight="0.0" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -727,24 +719,21 @@
         <state line="25" column="47" selection-start="649" selection-end="649" vertical-scroll-proportion="0.6499134" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/conf/routes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="189" selection-end="270" vertical-scroll-proportion="0.20797227" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/stylesheets/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="34" column="11" selection-start="382" selection-end="455" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/main.scala.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="97" column="58" selection-start="3292" selection-end="3292" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/result.scala.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="23" selection-start="74" selection-end="74" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/Utils.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="19" selection-start="19" selection-end="19" vertical-scroll-proportion="0.0" />
+        <state line="1" column="62" selection-start="20" selection-end="20" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/basicresult.scala.html">
@@ -754,23 +743,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/index.scala.html">
+    <entry file="file://$PROJECT_DIR$/app/views/result.scala.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="57" selection-start="219" selection-end="238" vertical-scroll-proportion="-4.375">
-          <folding />
-        </state>
+        <state line="4" column="23" selection-start="74" selection-end="74" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/Application.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="441" selection-end="704" vertical-scroll-proportion="0.0">
+        <state line="24" column="0" selection-start="441" selection-end="704" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/index.scala.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="77" selection-start="922" selection-end="940" vertical-scroll-proportion="-19.375">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conf/routes">
+    <entry file="file://$PROJECT_DIR$/app/views/main.scala.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="189" selection-end="270" vertical-scroll-proportion="0.20797227">
+        <state line="87" column="40" selection-start="3065" selection-end="3065" vertical-scroll-proportion="0.16666667">
           <folding />
         </state>
       </provider>
