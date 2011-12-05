@@ -26,8 +26,12 @@
         args = 'label -> "7 ==> ", 'placeholder -> "Qix"
     )
 
-    <p class="buttons">
-        <input type="submit">
-    <p>
+    <div class="actions">
+        <p class="buttons">
+            <input type="button" class="btn primary" value="Calculer"
+                   onclick="$.get('/basicresult', function(data) {
+                    $('#result').html(data);});">
+        <p>
+    </div>
     }
 }

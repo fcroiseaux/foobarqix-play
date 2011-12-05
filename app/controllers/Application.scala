@@ -31,4 +31,8 @@ object Application extends Controller {
       }
       )
   }
+  
+  def result = Action {
+    Ok(html.basicresult((1 to 100)))
+  }
 }

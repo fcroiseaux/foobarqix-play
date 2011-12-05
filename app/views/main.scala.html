@@ -68,12 +68,32 @@
                 border: 0;
             }
 
+            input {
+                margin-left: 20px;
+            }
+
+            dd.info {
+                display: none;
+            }
+            dd.error {
+                margin-left: 10px;
+                font-size: 12px;
+                color: #c00;
+            }
         </style>
 
         <link rel="shortcut icon" type="image/png" href="@routes.Assets.at("images/favicon.png")">
         <script src="@routes.Assets.at("javascripts/jquery-1.6.4.min.js")" type="text/javascript"></script>
     </head>
     <body>
+        <div class="topbar">
+            <div class="fill">
+                <div class="container">
+                    <a class="brand" href="#">Code Story 2012</a>
+                </div>
+            </div>
+        </div>
+
 
         <div class="container">
 
@@ -87,6 +107,8 @@
                 </div>
                 <div class="span4">
                     <h3>Résultats</h3>
+                    <div id="result">
+                    </div>
                 </div>
             </div>
         </div>

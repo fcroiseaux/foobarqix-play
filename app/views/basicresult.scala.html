@@ -1,0 +1,8 @@
+@(range: Seq[Int])
+
+
+<ul>
+    @range.map { ind =>
+    @ind --> @Utils.convert(ind)<br/>
+    }
+</ul>
