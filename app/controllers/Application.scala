@@ -8,31 +8,10 @@ import views._
 object Application extends Controller {
 
   def index = Action {
-    Ok(views.html.index(paramForm))
+    Ok(views.html.index())
   }
 
-  /**
-   * Formulaire de saisie des paramètres de foobarqix
-   */
-  val paramForm = Form(
-    of(
-        "nbIter" -> number,
-        "rp1" -> optional(text),
-        "rp2" -> optional(text),
-        "rp3" -> optional(text)
-      )
-  )
-
-  def computeReplacements = Action {
-    implicit request =>
-      paramForm.bindFromRequest.fold(
-      formWithErrors => BadRequest(html.index(formWithErrors)), {
-        case (nbIter, rp1, rp2, rp3) => Ok(html.result((1 to nbIter.toInt)))
-      }
-      )
-  }
-
-  def result(nbIter: String) = Action {  request =>
-    Ok(html.basicresult((1 to  nbIter.toInt)))
+  def result(nbIter: String, rp1: String, rp2: String, rp3: String, rp4: String, rp5: String, rp6: String, rp7: String, rp8: String, rp9: String) = Action {  request =>
+    Ok(html.basicresult((1 to  nbIter.toInt), rp1, rp2, rp3, rp4, rp5, rp6, rp7, rp8, rp9))
   }
 }

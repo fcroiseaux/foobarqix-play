@@ -1,4 +1,4 @@
-@(paramForm: Form[(Long, Option[String], Option[String], Option[String])])
+@()
 
 @import helper._
 
@@ -58,7 +58,7 @@
                 </div>
                 <label for="rpl5">5 --></label>
                 <div class="input">
-                    <input id="rpl5" name="rpl5" value="Bar" size="30" type="text" />
+                    <input id="rpl5" name="rpl5" value="Boo" size="30" type="text" />
                 </div>
                 <label for="rpl6">6 --></label>
                 <div class="input">
@@ -82,7 +82,7 @@
         <div class="actions">
             <p class="buttons">
                 <input type="button" class="btn primary" value="Calculer"
-                       onclick="$.get('/basicresult', {nbIter: $('#nbIter').val()}, function(data) {
+                       onclick="$.get('/basicresult', {nbIter: $('#nbIter').val(), rp1: $('#rpl1').val(), rp2: $('#rpl2').val(), rp3: $('#rpl3').val(), rp4: $('#rpl4').val(), rp5: $('#rpl5').val(), rp6: $('#rpl6').val(), rp7: $('#rpl7').val(), rp8: $('#rpl8').val(), rp9: $('#rpl9').val()}, function(data) {
                         $('#result').html(data);});">
             <p>
         </div>

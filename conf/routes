@@ -6,8 +6,7 @@
 GET     /                           controllers.Application.index()
 
 # Display result
-GET     /displayResult              controllers.Application.computeReplacements()
-GET     /basicresult                controllers.Application.result(nbIter)
+GET     /basicresult                controllers.Application.result(nbIter, rp1, rp2, rp3, rp4, rp5, rp6, rp7, rp8, rp9)
 
 
 # Map static resources from the /public folder to the /assets URL path

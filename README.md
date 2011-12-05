@@ -3,5 +3,3 @@
 * Télécharger la version la plus récente de Play 2 à partir de http://www.playframework.org/2.0
 * Démarrer le serveur : play run
 * Ouvrir un navigateur à l'adresse http://localhost:9000
-
-## Il n'est pas possible de changer les chaines de caractères à substituer dans cette version
