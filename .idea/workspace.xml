@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="754aa09e-84b1-4796-88f8-2ed28b84235f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/Application.scala" afterPath="$PROJECT_DIR$/app/controllers/Application.scala" />
     </list>
     <ignored path="foobarqix-play.iws" />
     <ignored path=".idea/workspace.xml" />
