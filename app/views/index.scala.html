@@ -30,6 +30,12 @@
         </p>
     </div>
     </div>
+    <script>
+        function displayResult() {
+            $.get('/basicresult', {nbIter: $('#nbIter').val(), rp1: $('#rpl1').val(), rp2: $('#rpl2').val(), rp3: $('#rpl3').val(), rp4: $('#rpl4').val(), rp5: $('#rpl5').val(), rp6: $('#rpl6').val(), rp7: $('#rpl7').val(), rp8: $('#rpl8').val(), rp9: $('#rpl9').val()}, function(data) {
+                $('#result').html(data);});
+        }
+    </script>
     <form>
         <fieldset>
             <legend>Parametres de foobarqix:</legend>
@@ -42,39 +48,39 @@
             <div class="clearfix">
                 <label for="rpl1">1 --></label>
                 <div class="input">
-                    <input id="rpl1" name="rpl1" size="30" type="text" />
+                    <input id="rpl1" name="rpl1" onkeyup="displayResult();" size="30" type="text" />
                 </div>
                 <label for="rpl2">2 --></label>
                 <div class="input">
-                    <input id="rpl2" name="rpl2" size="30" type="text" />
+                    <input id="rpl2" name="rpl2" onkeyup="displayResult();" size="30" type="text" />
                 </div>
                 <label for="rpl3">3 --></label>
                 <div class="input">
-                    <input id="rpl3" name="rpl3" value="Foo" size="30" type="text" />
+                    <input id="rpl3" name="rpl3" onkeyup="displayResult();" value="Foo" size="30" type="text" />
                 </div>
                 <label for="rpl4">4 --></label>
                 <div class="input">
-                    <input id="rpl4" name="rpl4" size="30" type="text" />
+                    <input id="rpl4" name="rpl4" onkeyup="displayResult();" size="30" type="text" />
                 </div>
                 <label for="rpl5">5 --></label>
                 <div class="input">
-                    <input id="rpl5" name="rpl5" value="Boo" size="30" type="text" />
+                    <input id="rpl5" name="rpl5" value="Boo" onkeyup="displayResult();" size="30" type="text" />
                 </div>
                 <label for="rpl6">6 --></label>
                 <div class="input">
-                    <input id="rpl6" name="rpl6" size="30" type="text" />
+                    <input id="rpl6" name="rpl6" onkeyup="displayResult();" size="30" type="text" />
                 </div>
                 <label for="rpl7">7 --></label>
                 <div class="input">
-                    <input id="rpl7" name="rpl7" value="Qix" size="30" type="text" />
+                    <input id="rpl7" name="rpl7" value="Qix" onkeyup="displayResult();" size="30" type="text"/>
                 </div>
                 <label for="rpl8">8 --></label>
                 <div class="input">
-                    <input id="rpl8" name="rpl8" size="30" type="text" />
+                    <input id="rpl8" name="rpl8" onkeyup="displayResult();" size="30" type="text" />
                 </div>
                 <label for="rpl9">9 --></label>
                 <div class="input">
-                    <input id="rpl9" name="rpl9" size="30" type="text" />
+                    <input id="rpl9" name="rpl9" onkeyup="displayResult();" size="30" type="text" />
                 </div>
             </div>
         </fieldset>
@@ -82,8 +88,7 @@
         <div class="actions">
             <p class="buttons">
                 <input type="button" class="btn primary" value="Calculer"
-                       onclick="$.get('/basicresult', {nbIter: $('#nbIter').val(), rp1: $('#rpl1').val(), rp2: $('#rpl2').val(), rp3: $('#rpl3').val(), rp4: $('#rpl4').val(), rp5: $('#rpl5').val(), rp6: $('#rpl6').val(), rp7: $('#rpl7').val(), rp8: $('#rpl8').val(), rp9: $('#rpl9').val()}, function(data) {
-                        $('#result').html(data);});">
+                       onclick="displayResult();">
             <p>
         </div>
     </form>
