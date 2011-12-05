@@ -3,35 +3,89 @@
 @import helper._
 
 @main("Bienvenue aux qualifs de code story") {
-
-    <h2>Parametres de foobarqix:</h2>
-
-    @form(action = routes.Application.computeReplacements, args = 'id -> "paramform") {
-
-    @inputText(
-        field = paramForm("nbIter"),
-        args = 'label -> "Nombre d'itétrations", 'placeholder -> 100
-    )
-
-    @inputText(
-        field = paramForm("rp1"),
-        args = 'label -> "3 ==> ", 'placeholder -> "Foo"
-    )
-    @inputText(
-        field = paramForm("rp2"),
-        args = 'label -> "5 ==> ", 'placeholder -> "Bar"
-    )
-    @inputText(
-        field = paramForm("rp3"),
-        args = 'label -> "7 ==> ", 'placeholder -> "Qix"
-    )
-
-    <div class="actions">
-        <p class="buttons">
-            <input type="button" class="btn primary" value="Calculer"
-                   onclick="$.get('/basicresult', {nbIter: $('#nbIter').val()}, function(data) {
-                    $('#result').html(data);});">
-        <p>
+    <div class="row">
+    <div class="span9">
+        <h3>Algorithme</h3>
+        <p align="justify">
+            Le but est de pouvoir exécuter toute la boucle sur une seule ligne et sans faire aucun test.
+            La règle du jeu se trouve sur le blog <a href="http://www.code-story.net/" target="_blank">Code Story</a>.
+            <br/>Voici l'algorithme <a href="#" rel="popover" data-content="for (i <- 1 to 100)
+            Console.println((i.toString() * ((1 / (1 + ('Foo' * (1 / (1 + (i % 3)))) + ('Bar' * (1 / (1 + (i % 5)))) + ('Qix' * (1 / (1 + (i % 7)))) + ('Foo' * (1 / (1 + ((i / 10 - 3).abs % 10)))) + ('Foo' * (1 / (1 + ((i - 3).abs % 10)))) + ('Bar' * (1 / (1 + ((i / 10 - 5).abs % 10)))) + ('Bar' * (1 / (1 + ((i - 5).abs % 10)))) + ('Qix' * (1 / (1 + ((i / 10 - 7).abs % 10)))) + ('Qix' * (1 / (1 + ((i - 7).abs % 10))))).size))) + ('Foo' * (1 / (1 + (i % 3)))) + ('Bar' * (1 / (1 + (i % 5)))) + ('Qix' * (1 / (1 + (i % 7)))) + ('Foo' * (1 / (1 + ((i / 10 - 3).abs % 10)))) + ('Bar' * (1 / (1 + ((i / 10 - 5).abs % 10)))) + ('Qix' * (1 / (1 + ((i / 10 - 7).abs % 10)))) + ('Foo' * (1 / (1 + ((i - 3).abs % 10)))) + ('Bar' * (1 / (1 + ((i - 5).abs % 10)))) + ('Qix' * (1 / (1 + ((i - 7).abs % 10)))))
+            " data-original-title="Une ligne et sans test">en une seule ligne</a>, et ici 
+            <a href="https://github.com/fcroiseaux/FooBarQix-scala/blob/master/src/main/scala/fcx/codestory/FooBarQix2.scala" target="_blank">une version plus lisible</a> et plus générique. C'est le code qui s'exécute dans cette application. Le tout est écrit en <strong>Scala</strong>.
+            <br/>Pour voir une version <strong>java</strong>, aller <a href="https://github.com/fcroiseaux/FooBarQix-scala/blob/master/src/main/java/fcx/codestory/FooBarQix3.java" target="_blank">ici</a>
+            <script>
+                $(function () {
+                    $("a[rel=popover]")
+                            .popover({
+                                offset: 10,
+                                placement: 'below'
+                            })
+                            .click(function(e) {
+                                e.preventDefault()
+                            })
+                })
+            </script>
+        </p>
     </div>
-    }
+    </div>
+    <form>
+        <fieldset>
+            <legend>Parametres de foobarqix:</legend>
+            <div class="clearfix">
+                <label for="nbIter">Nombre d'itérations</label>
+                <div class="input">
+                    <input id="nbIter" name="nbIter" value="100" size="30" type="text" />
+                </div>
+            </div>
+            <div class="clearfix">
+                <label for="rpl1">1 --></label>
+                <div class="input">
+                    <input id="rpl1" name="rpl1" size="30" type="text" />
+                </div>
+                <label for="rpl2">2 --></label>
+                <div class="input">
+                    <input id="rpl2" name="rpl2" size="30" type="text" />
+                </div>
+                <label for="rpl3">3 --></label>
+                <div class="input">
+                    <input id="rpl3" name="rpl3" value="Foo" size="30" type="text" />
+                </div>
+                <label for="rpl4">4 --></label>
+                <div class="input">
+                    <input id="rpl4" name="rpl4" size="30" type="text" />
+                </div>
+                <label for="rpl5">5 --></label>
+                <div class="input">
+                    <input id="rpl5" name="rpl5" value="Bar" size="30" type="text" />
+                </div>
+                <label for="rpl6">6 --></label>
+                <div class="input">
+                    <input id="rpl6" name="rpl6" size="30" type="text" />
+                </div>
+                <label for="rpl7">7 --></label>
+                <div class="input">
+                    <input id="rpl7" name="rpl7" value="Qix" size="30" type="text" />
+                </div>
+                <label for="rpl8">8 --></label>
+                <div class="input">
+                    <input id="rpl8" name="rpl8" size="30" type="text" />
+                </div>
+                <label for="rpl9">9 --></label>
+                <div class="input">
+                    <input id="rpl9" name="rpl9" size="30" type="text" />
+                </div>
+            </div>
+        </fieldset>
+
+        <div class="actions">
+            <p class="buttons">
+                <input type="button" class="btn primary" value="Calculer"
+                       onclick="$.get('/basicresult', {nbIter: $('#nbIter').val()}, function(data) {
+                        $('#result').html(data);});">
+            <p>
+        </div>
+    </form>
+
+
 }
