@@ -29,7 +29,7 @@
     <div class="actions">
         <p class="buttons">
             <input type="button" class="btn primary" value="Calculer"
-                   onclick="$.get('/basicresult', function(data) {
+                   onclick="$.get('/basicresult', {nbIter: $('#nbIter').val()}, function(data) {
                     $('#result').html(data);});">
         <p>
     </div>
