@@ -8,6 +8,7 @@ Pour exécuter avec les contraintes des qualifs décrites [ici](http://www.code-
 * Pour modifier les chaînes de remplacement et le chiffre remplacé, tapez la valeur dans le champs correspondant. La mise à jour du résultat est automatique.
 
 Pour exécuter :
+
 * Télécharger la version la plus récente de Play 2 à partir de http://www.playframework.org/2.0
 * Démarrer le serveur : play run
 * Ouvrir un navigateur à l'adresse http://localhost:9000
